@@ -1,0 +1,62 @@
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+#logo {
+  width: 150px;
+}
+
+#form-main-01 {
+  width: 100%;
+  display: block;
+  padding-left: 140px;
+}
+
+.img-fluid{
+  box-sizing: border-box;
+ display:block;
+ height: 100%;
+}
+
+h2 {
+  color: black;
+}
+
+label {
+  color: #444444;
+}
+
+button i {
+  padding-right: 4px;
+}
+
+@media only screen and (max-width: 535px) {
+  #form-main-01 {
+    padding-left: 0px;
+  }
+  #bg-image-01 {
+    display: none;
+  }
+}
+.login_form #email_error, 
+.login_form #pass_error
+{
+	margin-top: 5px;
+	width: 100%;
+	font-size: 18px;
+	color: #C62828;
+	background: rgba(255,0,0,0.1);
+	text-align: center;
+	padding: 5px 8px;
+	display: none;
+} 
+.login_form #check_error{
+  margin-top: 5px;
+	width: 80px;
+	font-size: 10px;
+  color :#C62828;
+	text-align: end;
+	display: none;
+}
+/*# sourceMappingURL=main.css.map */

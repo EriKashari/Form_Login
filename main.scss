@@ -1,0 +1,39 @@
+@import 'logo-size';
+@import 'fonts';
+@import 'responsive';
+
+#logo {
+    width: $width;
+}
+
+#form-main-01 {
+    width: 100%;
+    display: block;
+    padding-left: 140px;
+    padding:$padding-mobile;
+}
+
+
+.image-fluid {
+box-sizing: border-box;
+display:$image-mobile;
+height: 100px;
+
+}
+
+h2 {
+    color: $primary-color;
+}
+
+label {
+    color: $secondary-color;
+}
+
+button i {
+    padding-right: 4px;
+}
+
+
+
+
+
